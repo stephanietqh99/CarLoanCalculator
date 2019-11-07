@@ -36,7 +36,10 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun resetInput(view: View){
-
+        carPrice.text = null
+        downPayment.text = null
+        loan.text = null
+        interestRate.text = null
     }
 
 
